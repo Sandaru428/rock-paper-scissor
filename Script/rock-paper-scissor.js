@@ -26,7 +26,6 @@ function playGame (playerMove) {
 
     if (computerMove === 'ROCK') {
       result = 'TIE';
-      document.querySelector ('.js-moves').innerHTML = `YOU <img src="/Images/ROCK-emoji.png" class="move-icon"> <img src="/Ismages/ROCK-emoji.png" class="move-icon">Computer`;
     } else if (computerMove === 'PAPER') {
       result = 'YOU LOSE';
     } else {
