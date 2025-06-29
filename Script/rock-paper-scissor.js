@@ -65,7 +65,7 @@ function playGame (playerMove) {
   localStorage.setItem ('score', JSON.stringify(score));
   document.querySelector ('.js-score').innerHTML = `Wins : ${score.wins},  Losses : ${score.losses},  Ties : ${score.ties}`;
   document.querySelector ('.js-result').innerHTML = result;
-  document.querySelector ('.js-moves').innerHTML = `YOU <img src="./Images/${playerMove}-emoji.png" class="move-icon"> <img src="/Ismages/${computerMove}-emoji.png" class="move-icon">Computer`;
+  document.querySelector ('.js-moves').innerHTML = `YOU <img src="./Images/${playerMove}-emoji.png" class="move-icon"> <img src="./Ismages/${computerMove}-emoji.png" class="move-icon">Computer`;
 
   return;
 }
